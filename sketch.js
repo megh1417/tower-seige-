@@ -20,7 +20,15 @@ function setup(){
     world = engine.world;
 
     box1 = new Box(410,280,40,50);
-    box2 = new Box(410,260,40,50);
+    box2 = new Box(400,280,40,50);
+    box3  = new Box(390,280,40,50);
+    box4  = new Box(380,280,40,50);
+    box5  = new Box(405,260,40,50);
+    box6 = new Box(395,260,40,50);
+    box7  = new Box(385,260,40,50);
+    box8 = new Box(400,240,40,50);
+    box9 = new Box(390,240,40,50);
+    box10  = new Box(395,220,40,50);
     stand1 = new Ground(390,300,250,10);
     stand2 = new Ground(750, 150, 250,10);
     //ground = new Ground(390,300,250,10)
@@ -58,6 +66,14 @@ function draw(){
     image(polygon,object.position.x, object.position.y,30,30);
     box1.display();
     box2.display(); 
+    box3.display();
+    box4.display();
+    box5.display();
+    box6.display();
+    box7.display();
+    box8.display();
+    box9.display();
+    box10.display();
     //ground.display();
     stand1.display();
     stand2.display();
